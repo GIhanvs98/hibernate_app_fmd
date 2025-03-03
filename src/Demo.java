@@ -14,7 +14,7 @@ public class Demo {
         System.out.println(customer!=null?customer:"customer not found");*/
       //  updateCustomer();
       //  findAll();
-      //  deleteCustomer("C1");
+        deleteCustomer("C1");
 
 
     }
