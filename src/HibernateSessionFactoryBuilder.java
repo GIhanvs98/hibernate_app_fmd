@@ -16,6 +16,9 @@ public class HibernateSessionFactoryBuilder {
 
         Metadata metadata = new MetadataSources(standardRegistry)
                 .addAnnotatedClass(Customer.class)
+                .addAnnotatedClass(Vehicle.class)
+                .addAnnotatedClass(CustomerOrder.class)
+                .addAnnotatedClass(Product.class)
                 .getMetadataBuilder()
                 .build();
 
